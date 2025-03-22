@@ -14,6 +14,8 @@ I gace different width, height, margin and padding to different elements as show
 It's my first work that I do in time boundation. Although I am not able to create a fully responsive and add Parallax Slideer Animation. But it gave me a new Experience in the field of web development. A Big THANKS to Carbon Crunch for shortlisting me and providing a unique Experience.
 
 Technology ussed - HTML and CSS.
+Image - (https://github.com/user-attachments/assets/b7f8ebe7-26ef-4965-b044-ef5c711c2f38)
+
 
 Link - 
 
