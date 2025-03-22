@@ -1,0 +1,254 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+#feat{
+    background-color: #f5f5f5;
+    color: #28B30E;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Features Section */
+.features {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Grid Layout */
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* Feature Card */
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+/* Icons */
+.feature i {
+    font-size: 40px;
+    color: #28B30E;
+    margin-bottom: 10px;
+}
+
+/* Statistics Section */
+.stats {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.stats h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #28B30E;
+}
+
+/* Grid Layout */
+/* .stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+} */
+
+/* Stats Card */
+.stats #image1{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.stat h3 {
+    font-size: 2rem;
+    /* margin: 20px; 
+    color: #28B30E;
+    padding-left: 0px; */
+    color: black;
+}
+
+/*  Responsive   */
+@media (max-width: 600px) {
+    .features-container, .stats-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.feature h3{
+    color: green;
+}
+.stat1{
+    position: relative;
+    height: 100px;
+    width: 50px;
+    margin-left: 450px;
+    margin-top: 45px;
+    /* height: 20px; */
+    width: 200px;
+    padding-top: 80px;
+    z-index: 7;
+}
+.box p{
+    padding-top:5px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.box h3{
+    margin: 0px;
+    text-align: left;
+    text-decoration: solid;
+  
+   
+}
+.box{
+    background-color: #28B30E;
+    padding: 5px;
+    /* z-index: 2; */
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 100px;
+}
+.stat2{
+    position: absolute;
+    height: 120px;
+    width: 50px;
+    margin-left: 350px;
+    margin-top: -20px;
+    /* height: 20px; */
+    width: 210px;
+    padding-top: 80px;
+    z-index: 5;
+}
+.box2{
+   background-color:  #3A3A3A;
+   z-index: 1;
+   color: white;
+    padding: 5px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 70px;
+
+}
+.box2 h3{
+    color: white;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: left;
+
+}
+.box2 p{
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    /* width: 80px; */
+    width: 300px;
+}
+.stat3{
+    position: relative ;
+    height: 10px;
+    width: 30px;
+    margin-left: 450px;
+    margin-top: 45px;
+    /* height: 20px; */
+    width: 210px;
+    padding-top: 80px;
+    z-index: 3;
+}
+.box3 h3{
+    color: white;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: right;
+    margin-bottom: 10px;
+    height: 10px;
+  
+
+}
+.box3{
+  background-color: black;
+    z-index: 1;
+   color: azure;
+   width: 170px;
+     padding: 5px;
+     text-align: right;
+
+     /* border: 2px solid black; */
+     border-radius: 10px;
+ 
+ }
+
+ .stat4{
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    margin-left: 300px;
+    margin-top: 10px;
+    /* height: 20px; */
+    width: 210px;
+    padding-top: 80px;
+    z-index:1;
+}
+.box4 h3{
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    /* width: 80px; */
+    width: 300px;
+  
+
+}
+.box4 p{
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    /* width: 80px; */
+    width: 300px;
+}
+.box4{
+    background-color:  whitesmoke;
+    z-index: 1;
+    color: green ;
+     padding: 5px;
+     /* border: 2px solid black; */
+     border-radius: 10px;
+     height: 110px;
+     width: 300px;
+ 
+ }
+
+
+
+
+
+
+
+/* .main{
+    height: 400px;
+    width: 916px;
+} */
